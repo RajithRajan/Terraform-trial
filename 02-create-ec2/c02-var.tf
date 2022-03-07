@@ -5,3 +5,9 @@ variable "aws_region" {
   type = string
   default = "ap-south-1"
 }
+
+variable "instance_type" {
+  description = "Aws EC2 instance type"
+  type = string
+  default = "t2.micro"  
+}

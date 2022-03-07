@@ -1,5 +1,5 @@
 # creating security group
-resource "aws_security_group" "web_server" {
+resource "aws_security_group" "sg_web_server" {
     description = "SG for web server"
     name        = "sg_web_server"
 
